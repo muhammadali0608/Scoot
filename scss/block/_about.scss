@@ -1,0 +1,60 @@
+.about {
+    background-image: url(../../img/circle.jpg), url(../../img/circle.jpg), url(../../img/circle.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 820px) calc(50% - 700px), calc(50% - 820px) calc(50% - 90px), calc(50% + 820px) calc(50% + 550px);
+    border-radius: 50px;
+    
+
+    .about__inner {
+        padding-bottom: 178px;
+    }
+    .about__img {
+        background-color: transparent;
+    }
+
+    .about__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .about__box + .about__box {
+        margin-top: 200px;
+    }
+    .about__box-in {
+        max-width: 445px;
+    }
+    .about__img-start {
+        
+    }
+    .about__img-next {
+        
+    }
+
+    .about__paragraph {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #495567;
+        margin-bottom: 24px;
+    }
+
+    .about__text {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+        margin-bottom: 40px;
+    }
+
+    .about__button {
+
+    }
+    .about__img-continue {
+        right: auto;
+    }
+}
