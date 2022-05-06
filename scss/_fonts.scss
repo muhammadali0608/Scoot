@@ -1,14 +1,29 @@
 @font-face {
-  font-family: 'Paytone One';
+  font-family: 'Space Mono';
   font-style: normal;
   font-weight: 400;
-  src:  url('../fonts/paytone-one-v16-latin-regular.woff2') format('woff2'), 
-        url('../fonts/paytone-one-v16-latin-regular.woff') format('woff');
+  display: swap;
+  src:
+    url('../fonts/space-mono-v11-latin-regular.woff2') format('woff2'),
+    url('../fonts/space-mono-v11-latin-regular.woff') format('woff');
 }
+
 @font-face {
-  font-family: 'Pavanam';
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  display: swap;
+  src:
+    url('../fonts/space-mono-v11-latin-700.woff2') format('woff2'),
+    url('../fonts/space-mono-v11-latin-700.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
   font-style: normal;
   font-weight: 400;
-  src:  url('../fonts/pavanam-v9-latin-regular.woff2') format('woff2'), 
-        url('../fonts/pavanam-v9-latin-regular.woff') format('woff'); 
+  display: swap;
+  src:
+    url('../fonts/lexend-deca-v16-latin-regular.woff2') format('woff2'),
+    url('../fonts/lexend-deca-v16-latin-regular.woff') format('woff');
 }
