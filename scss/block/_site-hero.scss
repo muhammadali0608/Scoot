@@ -36,6 +36,13 @@
 
     }
 
+    .site-hero__button:active {
+        color: #FCB72B;
+        background-color: transparent;
+        border: 3px solid #FCB72B;
+        cursor: pointer;
+    }
+
     .site-hero-text {
         font-family: 'Lexend Deca';
         font-style: normal;
@@ -54,7 +61,7 @@
 
 @media only screen and (max-width: 785px) {
     .site-hero {
-        background-image: url(../../img/hero-bg-media.jpg);
+        background-image: url(../img/hero-bg-media.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -110,7 +117,7 @@
 
 @media only screen and (max-width: 480px) {
     .site-hero {
-        background-image: url(../../img/hero-bg-mobile.png);
+        background-image: url(../img/hero-bg-mobile.png);
         background-repeat: no-repeat;
         background-size: cover;
 

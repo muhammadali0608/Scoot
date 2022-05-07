@@ -19,6 +19,7 @@
             max-width: 130;
             height: 50px;
         }
+
         font-family: 'Space Mono';
         font-style: normal;
         font-weight: 700;
@@ -51,7 +52,7 @@
     }
 
     .connect__box-next {
-        margin-left: 11px;       
+        margin-left: 11px;
         font-size: 10px;
         line-height: 15px;
         color: #495567;
@@ -65,6 +66,7 @@
             max-width: 130;
             height: 50px;
         }
+
         font-size: 10px;
         line-height: 15px;
         color: #495567;
@@ -81,6 +83,15 @@
 
     .connect__box-in-other {
         width: 152px;
+    }
+
+    .connect__app-store-link {
+        text-decoration: none;
+        margin-right: 10px;
+    }
+
+    .connect__google-play {
+        text-decoration: none;
     }
 }
 
@@ -119,11 +130,11 @@
             height: 19px;
         }
 
- 
-    
-            .connect__box-in-other {
-                max-width: 130;
-                height: 50px;
+
+
+        .connect__box-in-other {
+            max-width: 130;
+            height: 50px;
         }
     }
 }
@@ -148,6 +159,7 @@
             font-size: 32px;
             line-height: 32px;
         }
+
         .connect__box-in+.connect__box-in {
             margin-left: 10px;
         }
@@ -166,6 +178,7 @@
             width: 13px;
             height: 12px;
         }
+
         .connect__box-in-other {
             max-width: 130;
 
